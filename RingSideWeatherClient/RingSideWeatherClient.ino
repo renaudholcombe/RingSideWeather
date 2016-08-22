@@ -13,11 +13,11 @@
 unsigned char local_ip[] = {192,168,168,12};	// IP address of WiShield
 unsigned char gateway_ip[] = {192,168,168,1};	// router or gateway IP address
 unsigned char subnet_mask[] = {255,255,255,0};	// subnet mask for the local network
-const prog_char ssid[] PROGMEM = {"frejus"};		// max 32 bytes
+const prog_char ssid[] PROGMEM = {"WIFISSID"};		// max 32 bytes
 unsigned char security_type = 2;	// 0 - open; 1 - WEP; 2 - WPA; 3 - WPA2
 
 // WPA/WPA2 passphrase
-const prog_char security_passphrase[] PROGMEM = {"cosbysnack"};	// max 64 characters
+const prog_char security_passphrase[] PROGMEM = {"<WIFI_PASSWORD>"};	// max 64 characters
 
 // WEP 128-bit keys
 // sample HEX keys
